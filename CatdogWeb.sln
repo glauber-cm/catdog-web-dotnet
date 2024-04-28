@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatdogWeb", "CatdogWeb\CatdogWeb.csproj", "{730543AF-A66E-4685-AB59-CE07B91771A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-) CatdogWeb", "CatdogWeb\1-) CatdogWeb.csproj", "{730543AF-A66E-4685-AB59-CE07B91771A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-) catdog-web-dotnet-infra", "catdog-web-dotnet-infra\4-) catdog-web-dotnet-infra.csproj", "{86DA7503-BF5E-42D4-B6AE-A90F5A15DC18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-) catdog-web-dotnet-domain", "catdog-web-dotnet-domain\3-) catdog-web-dotnet-domain.csproj", "{7B17DE99-1533-42AE-8087-F313254DC335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-) catdog-web-dotnet-service", "catdog-web-dotnet-service\2-) catdog-web-dotnet-service.csproj", "{1396B47C-CE6D-446D-A413-9F60FDFACF6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{730543AF-A66E-4685-AB59-CE07B91771A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{730543AF-A66E-4685-AB59-CE07B91771A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{730543AF-A66E-4685-AB59-CE07B91771A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86DA7503-BF5E-42D4-B6AE-A90F5A15DC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86DA7503-BF5E-42D4-B6AE-A90F5A15DC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86DA7503-BF5E-42D4-B6AE-A90F5A15DC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86DA7503-BF5E-42D4-B6AE-A90F5A15DC18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B17DE99-1533-42AE-8087-F313254DC335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B17DE99-1533-42AE-8087-F313254DC335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B17DE99-1533-42AE-8087-F313254DC335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B17DE99-1533-42AE-8087-F313254DC335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1396B47C-CE6D-446D-A413-9F60FDFACF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1396B47C-CE6D-446D-A413-9F60FDFACF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1396B47C-CE6D-446D-A413-9F60FDFACF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1396B47C-CE6D-446D-A413-9F60FDFACF6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

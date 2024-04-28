@@ -1,7 +1,11 @@
+using CatdogWeb;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<CatDogDbContext>();
 
 var app = builder.Build();
 

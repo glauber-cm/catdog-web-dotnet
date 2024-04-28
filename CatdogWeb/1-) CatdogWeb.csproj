@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="1-Application\" />
+    <Folder Include="2-Services\Interfaces\" />
+    <Folder Include="2-Services\NovaPasta\" />
+    <Folder Include="3-Repository\" />
+    <Folder Include="Domain\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\catdog-web-dotnet-domain\3-) catdog-web-dotnet-domain.csproj" />
+    <ProjectReference Include="..\catdog-web-dotnet-infra\4-) catdog-web-dotnet-infra.csproj" />
+    <ProjectReference Include="..\catdog-web-dotnet-service\2-) catdog-web-dotnet-service.csproj" />
+  </ItemGroup>
+
+</Project>

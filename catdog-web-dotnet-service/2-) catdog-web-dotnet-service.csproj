@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>catdog_web_dotnet_service</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\catdog-web-dotnet-domain\3-) catdog-web-dotnet-domain.csproj" />
+    <ProjectReference Include="..\catdog-web-dotnet-infra\4-) catdog-web-dotnet-infra.csproj" />
+  </ItemGroup>
+
+</Project>
